@@ -1,29 +1,71 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <link rel="icon" type="image/x-icon" href="/recursos/iconos/favicon.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/x-icon" href="/recursos/iconos/favicon.svg" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Realitylook</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <li>portada</li>
-        <li>
-          Servicios
-          <ul>
-            <li>Modelado 3D y Rederizado</li>
-            <li>Sitios Web</li>
-            <li>Contenido publicitario</li>
-            <li>Branding y Merchandising</li>
-          </ul>
-        </li>
-        <li>Portfolio</li>
-        <li>Creador</li>
-        <li>Contacto</li>
-      </ul>
-    </header>
+    <nav class="menu">
+      <section class="contenedor-menu">
+        <img
+          src="/recursos/iconos/logo.svg"
+          alt="logo 3D Realitylook"
+          class="logo-menu"
+        />
+        <ul class="enlaces-menu">
+          <li class="elemento-menu">
+            <a href="#" class="enlace-menu">Portada</a>
+          </li>
+          <li class="elemento-menu elemento-menu--mostrar">
+            <a href="#" class="enlace-menu"
+              >Servicios
+              <img
+                src="/recursos/iconos/flecha.svg"
+                alt="flecha submenu"
+                class="menu-flecha"
+            /></a>
+            <ul class="enlaces-submenu">
+              <li class="elemento-submenu">
+                <a href="#" class="enlace-submenu enlace-submenu--interno"
+                  >Modelado 3D y Rederizado</a
+                >
+              </li>
+              <li class="elemento-submenu">
+                <a href="#" class="enlace-submenu enlace-submenu--interno"
+                  >Branding y Merchandising</a
+                >
+              </li>
+              <li class="elemento-submenu">
+                <a href="#" class="enlace-submenu enlace-submenu--interno"
+                >Contenido publicitario</a
+                >
+                <li class="elemento-submenu">
+                  <a href="#" class="enlace-submenu enlace-submenu--interno"
+                    >Sitios Web</a
+                  >
+                </li>
+              </li>
+            </ul>
+          </li>
+          <li class="elemento-menu">
+            <a href="#" class="enlace-menu">Portfolio</a>
+          </li>
+          <li class="elemento-menu">
+            <a href="#" class="enlace-menu">Creador</a>
+          </li>
+          <li class="elemento-menu">
+            <a href="#" class="enlace-menu">Contacto</a>
+          </li>
+        </ul>
+        <div class="menu-hamburguesa">
+          <img src="/recursos/iconos/menu burger.svg" alt="abrir menu" class="menu-img-abrir"> 
+        </div>
+      </section>
+    </nav>
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
